@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.backimage{
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    color:white;
+    height: auto;
+    background-size: cover;
+    text-align: center;
+}
+.descript{
+    padding: 200px 300px 200px;
+    padding: 0 auto;
+}
+.descript p,h1{
+    padding-bottom: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.donate-today{
+    margin: 10% 20%;
+    text-align: center;
+}
+.donate-taka{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    margin-left: 170px;
+}
+.donate-taka h5{
+    padding: 30px 30px;
+    background-color: rgb(220, 217, 217);
+    margin: 10px;
+
+}
+hr{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+input{
+    border:none;
+    padding-left: 10px 10px;
+}
+.sec-3{
+    text-align: center;
+}
+.card{
+    display: flex;
+    margin:3% 5%;
+    
+}
+.card-menu{
+    display: left;
+    width: 30%;
+    padding: 3%;
+    background-color: rgb(205, 163, 147);
+    margin: 0% 5%;
+}
+.card-menu h3{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer p{
+    padding: 35px;
+    
+}
+footer span{
+        color: tomato;
+}
